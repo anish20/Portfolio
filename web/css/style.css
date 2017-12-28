@@ -386,6 +386,12 @@ p.vel{
 	clear: left;
 	
 }
+
+.greet{
+    padding: 15px;
+    margin-top: -15px;
+    border-radius: 5px;
+}
 h2.resp-accordion {
 	cursor: pointer;
 	padding: 5px;
