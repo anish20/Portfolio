@@ -884,6 +884,11 @@ h2.typoh2{
 	}
 }
 @media (max-width:480px){
+    .greet{
+    padding: 15px;
+    margin-top: -15px;
+    border-radius: 5px;
+}
 	.table h1 {
 		font-size: 26px;
 	}
@@ -904,6 +909,7 @@ h2.typoh2{
 	}
 }
 @media (max-width: 320px){
+    
 	.caption span {
 		margin: 0 0 1.5em;
 	}
@@ -936,6 +942,7 @@ h2.typoh2{
 	table.table.table-striped,.table-bordered,.bs-docs-example {
 		display: none;
 	}
+        
 }
 /*--//Typography --*/
 /*-- about --*/
