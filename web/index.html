@@ -64,6 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
+<main style="margin: 0;padding: 0; width:auto;height: auto;">
 <nav class="navbar navbar-fixed-top">
 	<div class="header-nav">
 		<div class="container">
@@ -85,7 +86,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="act"><a href="index.html">About Me</a></li>
-                                                <li class="hvr-bubble-bottom"><a href="Resume/Resume.pdf">Resume</a></li>
+                                                <li class="hvr-bubble-bottom"><a href="Resume.html">Resume</a></li>
                                                 <li class="hvr-bubble-bottom"><a href="contact.html">Contact</a></li>
                                                 <li class="hvr-bubble-bottom"><a href="blog.html">My Blogs</a></li>
                                                 <li class="hvr-bubble-bottom"><a href="blog.html">Quotes</a></li>
@@ -122,20 +123,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-</nav>
-<!-- //header-bottom -->
-<!-- banner -->
 
-<div class="banner">
-    <div class="" style="width: 100;">
-     <section class="slider">
-      
-	<div class="banner-info">
-            <br><br><br><br><br><br><br><br><br>
-            
-            <div  class="row ">
-                <div class="bg-info greet">
-                <label id="lbl" style="color: green">
+<div  class="row ">
+    <div class="bg-info greet" style="text-align: center">
+                    <label id="lbl" style="color: green;">
                <script>
     var myDate = new Date();
     var hrs = myDate.getHours();
@@ -144,16 +135,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     if (hrs < 12)
         greet = 'Good Morning';
-    else if (hrs >= 12 && hrs <= 17)
+    else if (hrs >=12 && hrs <= 17)
         greet = 'Good Afternoon';
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Good Evening';
 
     document.getElementById('lbl').innerHTML =
-        '<b>'+'Hello!  ' + greet + '</b>';
-       </script> </label></div>
-            </div><br>
-            <img src="images/anish1.jpg" class="img-responsive"  style="margin: auto;width: 250px;height: 250px;border-radius: 90%;border: solid 2px white">
+        '<b>'+'Hello!  '+ greet +'</b>';
+           </script></label></div>
+            </div>
+</nav>
+<!-- //header-bottom -->
+<!-- banner -->
+
+<div class="banner">
+    <div class="" style="">
+     <section class="slider">
+      
+	<div class="banner-info">
+            <br><br><br><br><br><br><br><br><br><br>
+            <img src="images/anish1.jpg" class="img-responsive"  style="margin: auto;width: 250px;height: 250px;border-radius: 90%;border: solid 2px white;">
 	     
              <h1>Software Engineer</h1>
              <p><b>Profile : </b>Java Web Developer and Web Designer</p>
@@ -185,6 +186,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                  <li><b>C Language</b></li>
                  <li><b>Java Language- Core java</b></li>
                  <li><b>Advance Java- Servlet ,JSP , MVC , JDBC</b></li>
+                 <li><b>Maven- Project Structure Build Tool</b></li>
                  <li><b>Database- SQL Server,MySql,DBMS</b></li>
                  <li><b>Android Development- Eclipse Adt Bundle</b></li>
              </ol>
@@ -226,5 +228,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/bootstrap.js"></script>
        
 <!-- //for bootstrap working -->
+</main>
 </body>
 </html>

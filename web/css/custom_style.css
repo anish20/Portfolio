@@ -17,3 +17,18 @@ and open the template in the editor.
 .img-card:hover{
     opacity: 0.6;
 }
+
+.bg-hover:hover{
+   background: #c9302c;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   overflow: hidden;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+}
+.bg-hover a:hover{
+    color: white;
+}
